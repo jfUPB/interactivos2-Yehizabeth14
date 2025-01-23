@@ -15,3 +15,17 @@
  human interaction, artifical intelligence, data and programming. This unique blend equips us to create captivating brand narratives as well as entirely new visual 
  design experiences.
   https://www.patrik-huebner.com/what-is-generative-design-and-creative-coding/
+ #### Arte generativo
+   ##### freecodecamp
+   A menudo, el arte generativo se inspira en el arte moderno, especialmente en el arte pop, que hace un uso intensivo de patrones geométricos ordenados.
+   Sin embargo, es una categoría muy amplia y rica de arte creado con código con una característica central. El arte generativo incorpora un sistema autogobernado 
+   o autónomo de alguna manera.
+   La aleatoriedad es un tipo de sistema autónomo. Al incorporar el azar en una pieza de código, obtienes una pieza de arte diferente y completamente única cada 
+   vez que ejecutas tu script, cargas tu página o respondes a alguna interacción del usuario.
+   También existen sistemas autónomos más ordenados. Un ejemplo es el Fractal de Mandelbrot, derivado de una ecuación engañosamente simple.
+   https://www.freecodecamp.org/espanol/news/una-introduccion-al-arte-generativo-que-es-y-como-se-hace/
+   ##### Escuela superior de diseño de barcelona
+   El arte no está exento de verse afectado por el avance de las nuevas tecnologías que, inevitablemente, tendrán un impacto en la forma en que algunos artistas 
+   crean. Si echamos una mirada al pasado, nuestra metodología hoy difiere de aquella utilizada en las primeras pinturas en cuevas. Y, de igual modo, seguiremos 
+   avanzando hacia creaciones más modernas. El arte generativo es una de ellas, y consiste en emplear sistemas que tienen la capacidad de crear por sí mismos.
+

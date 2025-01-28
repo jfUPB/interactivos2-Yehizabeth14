@@ -29,3 +29,5 @@
    crean. Si echamos una mirada al pasado, nuestra metodología hoy difiere de aquella utilizada en las primeras pinturas en cuevas. Y, de igual modo, seguiremos 
    avanzando hacia creaciones más modernas. El arte generativo es una de ellas, y consiste en emplear sistemas que tienen la capacidad de crear por sí mismos.
 
+  
+

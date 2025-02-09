@@ -77,3 +77,6 @@ function keyPressed() {
   redraw(); // Se actualiza el color al presionar teclas
 }
 ```
+
+![image](https://github.com/user-attachments/assets/90678c9e-b1ba-4024-ba07-1e904db16182)
+

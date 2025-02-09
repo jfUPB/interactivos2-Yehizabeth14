@@ -38,3 +38,5 @@ function mousePressed() {
   redraw(); // Genera nuevas formas al hacer clic
 }
 ```
+![image](https://github.com/user-attachments/assets/dbe5b595-b0f5-4410-b811-869c2cd88a49)
+

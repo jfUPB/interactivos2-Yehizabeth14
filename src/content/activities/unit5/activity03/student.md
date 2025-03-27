@@ -1,4 +1,4 @@
-1️⃣ Antes de la Experiencia
+ Antes de la Experiencia
 Introducción a la Cena Interactiva
 Antes de llegar al restaurante, los comensales pueden recibir un enlace con información sobre la experiencia.
 
@@ -13,7 +13,7 @@ Base de datos que almacena las preferencias de los comensales.
 
 Servidor que sincroniza estos datos con el sistema del restaurante.
 
-2️⃣ Durante la Experiencia
+ Durante la Experiencia
 Inicio de la Cena
 Los comensales escanean un código QR en la mesa para ingresar al sistema de interacción.
 Cada persona recibe una "misión gastronómica" basada en su perfil.
@@ -44,7 +44,8 @@ Interacción con los cubiertos, que al tocarlos en ciertas posiciones activan ef
 
 Creación musical colaborativa, donde los objetos de la mesa generan sonidos y melodías al ser manipulados.
 
-3️⃣ Después de la Experiencia
+Después de la Experiencia
+
 Recapitulación y Recuerdos
 Al finalizar la cena, los comensales reciben un resumen digital con:
 

@@ -45,3 +45,6 @@ Al levantar una copa, se genera un brillo o efecto visual alrededor.
 Desafíos donde deben sincronizar movimientos de los cubiertos para resolver acertijos en pantalla.
 
 Actividades colaborativas donde deben unir ingredientes virtuales para desbloquear una sorpresa.
+
+
+![WhatsApp Image 2025-03-27 at 2 20 35 PM](https://github.com/user-attachments/assets/71ee9cdf-13c1-4182-8f2b-d162a496ad64)

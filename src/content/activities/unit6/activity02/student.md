@@ -27,3 +27,37 @@ El control remoto del anfitrión puede introducir sorpresas (una figura 3D de un
 4. Cada cierto tiempo, se avanza de etapa: entrada, plato fuerte, postre, con transiciones visuales y sonoras.
 
 5. Todo esto genera variaciones impredecibles pero coherentes: la experiencia nunca es idéntica, pero responde a los estímulos reales.
+
+## Pseudocódigo básico:
+```
+SI input_tema CAMBIA:
+   CARGAR ambientación visual y sonora según tema
+
+SI movimiento_cubiertos > 0.5:
+   AUMENTAR partículas / animaciones en la mesa
+
+SI luz_ambiente < 300:
+   CAMBIAR iluminación visual a modo nocturno
+
+SI sonido_ambiente > umbral:
+   DISMINUIR volumen general
+   CAMBIAR música a tono relajado
+
+SI control_remoto = true:
+   ACTIVAR escena especial
+
+CADA 10 minutos:
+   TRANSICIÓN a siguiente etapa de la comida
+  ```
+
+## outputs
+
+| Tipo | elemento	| propiedades dinamicas  | Conexión input |
+|-| - |-|-|
+| Visual	| Proyecciones sobre la mesa	| Formas, colores, animaciones, intensidad, velocidad	| Movimiento de cubiertos → más visuales en el plato |
+| Visual | 	Elementos flotantes (mar, etc)| Opacidad, desplazamiento, aparición/desaparición	| Tema elegido → ambientación (olas, plantas, etc) |
+| sonoro | Efectos sonoros especiales |	Activación por tiempo o control remoto	| Control remoto → sorpresa sonora (campanas, etc) |
+| Luminotécnico |	Intensidad de luces proyectadas |	Brillo, color |	Luz ambiente → modo día/noche |
+| Narrativo |	Cambios de escena	| Transiciones suaves o sorpresivas	| Tiempo o anfitrión → avanza la historia| 
+
+

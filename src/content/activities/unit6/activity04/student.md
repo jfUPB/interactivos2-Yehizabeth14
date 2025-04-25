@@ -1,48 +1,61 @@
 # Actividad 4
 
-## Datos
+## Inputs a Simular
 
-- Nivel de ruido ambiental (como si hubiese un micrófono).
 
-- Movimiento de comensales (como si hubiera sensores de movimiento).
+Acelerómetro - movimiento general de la mesa (comensales)
+Touch en la mesa	- Interacciones individuales de los comensales
+Control del host	- Cambios globales de estado o ambiente visual
 
-- Estado de ánimo general (como si fuese un input emocional del público).
 
 ## Método de Simulación
 
-### Ruido ambiental (simulado con noise()):
+### Acelerómetro
+Tipo de dato: Número (float), por eje (x, y, z)
 
-Uso noise() para generar cambios suaves.
+Rango esperado: -1.0 a 1.0 por eje
 
-Multiplico el valor por 100 para simular un “nivel de ruido” entre 0–100.
+Método: noise() para cambios suaves y continuos
 
-let ruido = noise(frameCount * 0.01) * 100;
+Implementación:
 
-Comportamiento esperado:
+```
+let ax = noise(t) * 2 - 1;
+let ay = noise(t + 1000) * 2 - 1;
+let az = noise(t + 2000) * 2 - 1;
+t += 0.01;
+```
+Comportamiento buscado: fluctuaciones lentas y orgánicas, como si la mesa se moviera ligeramente por la actividad.
 
-Cambios lentos y naturales, como si la sala tuviera variaciones leves en el ambiente.
+### Touch en la mesa
+Tipo de dato: Coordenadas (x, y) + presión (0.0 a 1.0)
 
-### Movimiento de comensales (simulado con random() y picos):
+Método: interacción manual con el mouse + random() para picos de presión simulados
 
-Uso random(0, 1) pero con picos ocasionales para simular movimiento repentino.
+Implementación:
 
-Cada cierto tiempo agrego un valor alto para imitar un “evento” (alguien se para o se mueve mucho).
+Simulación manual: usar mouseX, mouseY
 
-Comportamiento esperado:
+Simulación automática:
 
-Valores bajos la mayoría del tiempo, pero con subidas inesperadas.
+```
+let touchX = noise(t) * width;
+let touchY = noise(t + 500) * height;
+let pressure = random(0.2, 1.0);
+```
+Comportamiento buscado: eventos táctiles que cambian la visual cuando un comensal toca su área; se puede usar para generar formas o reacciones locales.
 
-### Estado de ánimo (control manual con slider):
+### Control del Host
 
-Slider en pantalla para controlar de forma visual el "mood" del grupo.
+Tipo de dato: Texto (modo: "calma", "intenso", "intermedio")
 
-Rango del slider: 0 a 1.
+Método: Selector manual en pantalla (botones)
 
-Comportamiento esperado:
+Implementación:
 
-Permite probar cómo cambia la experiencia si el “ánimo” es alto o bajo.
+```
+let modo = "intermedio"; // cambia con botón
+```
+Comportamiento buscado: define la atmósfera visual general (colores más vibrantes, cantidad de elementos, ritmo visual).
 
-#### Activación / Desactivación
-Creo una variable booleana usarSimulacion = true;
-Con ella puedo encender o apagar los datos simulados fácilmente para luego conectar inputs reales.
 
